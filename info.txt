@@ -1,0 +1,22 @@
+Name: NexGuard
+
+Description:
+NexGuard is a comprehensive tool designed to create and manage a Nethunter Kex server environment. It simplifies the setup process by automating the installation of necessary dependencies, downloading the Kali Nethunter versions, and managing Kex sessions, all while providing a user-friendly interface.
+
+Features:
+1. Installs essential dependencies required for Nethunter.
+2. Downloads different versions of Kali Nethunter (Full, Minimum, Nano).
+3. Sets up the Kex server in the chosen mode (Full, Minimum, or Nano).
+4. Allows the user to start and stop the Kex server easily.
+5. Lists active Kex sessions for better management.
+6. Creates a local Flask server for testing purposes, providing a simple web interface.
+
+Usage:
+- Run './nexguard.sh' to initiate the setup process.
+- Use 'nh ls' to list active Kex sessions.
+- Use 'nh kex' to start the Kex server.
+- Use 'nh stop' to stop the Kex server.
+- Use 'nh create-server' to create a local Flask server.
+
+Developed by: XKernel Development
+Credits: CodeCrafters (Develope Net Key X)
